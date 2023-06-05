@@ -15,22 +15,26 @@ main img {
   border-top: 3vh solid yellow;
   border-bottom: 3vh solid black;
 }
-main div {
+main .nameBox {
   background-color: yellow;
-  padding: 30px 27px;
+  padding: 10px 50px;
   position: absolute;
-  bottom: 50px;
-  width: 27%;
+  bottom: 30px;
   text-align: center;
 }
-main div h3 {
+main .nameBox h3 {
   font-size: 22px;
   color: #040000;
 }
-main div h1 {
+main .nameBox h1 {
   color: rgba(0, 0, 0, 0.491);
   font-size: 24px;
 }
-main div h1 b {
+main .nameBox h1 b {
   color: rgba(0, 0, 0, 0.491);
+}
+main .nameBox i {
+  font-size: 50px;
+  margin: 10px;
+  cursor: pointer;
 }
